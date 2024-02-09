@@ -9,9 +9,10 @@
 ### Назначение файлов
 | Файл | Описание |
 |----------|----------|
-| paper.pdf   | статья  |
-| main.tex    | тех  |
-| .py файлы  | код для построения визуализаций|
+| paper.pdf   | Статья  |
+| graphics.pdf   | Все визуализации с пояснениями  |
+| main.tex    | Тех-код |
+| .py файлы  | Код для построения визуализаций|
 
 (ENG version)
 1. The problem of finding the square root of a permutation
@@ -20,6 +21,17 @@
 4. Counting commuting permutations
 5. Counting permutations with a certain cyclic structure
 6. Construction of conjugate, commuting, root and composition-stabilizing graphs.
+
+## Визуализация стуктуры группы перестановок
+#### Коммутирующие перестановки в группе S5
+![alt text](/resources/s5commut.PNG)
+#### Коммутирующие перестановки в группе S7
+![alt text](/resources/s7commut.PNG)
+#### Корневая карта перестановок в группе S7
+![alt text](/resources/s7root.PNG)
+#### Композиционно-стабилизирующая карта в группе S5
+![alt text](/resources/s5compstalb.PNG)
+## Дополнительно
 ```python
 # Характеристика группы S7
 # Коммутирующие, Количество цикловой структуры, Количество корней
@@ -39,4 +51,3 @@
  '[2, 2]': (48, 105, 8),
  '[2, 2, 2]': (48, 105, 0)}
 ```
-## Визуализация стуктуры группы перестановок
